@@ -1,4 +1,3 @@
-# thegcoder.github.io
 # thegcode.github.io
 # General-Assembly-Project-1-Hangman
 # General-Assembly-Project-1-Hangman
