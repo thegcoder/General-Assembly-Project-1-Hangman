@@ -19,6 +19,9 @@ Display a hangman as either ASCII art or images that represent the various stage
 Display a scoreboard of how games won and lost.
 Choose a theme for the game, such as "Famous Movies" or "Web Development Terms"
 
+YouTube Videos:
+https://www.youtube.com/watch?v=cGOeiQfjYPk
+
 Headers
 Emphasis
 Lists
