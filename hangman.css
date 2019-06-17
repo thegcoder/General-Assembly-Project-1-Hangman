@@ -1,6 +1,11 @@
 body {
   background: lightpink;
   text-align: center;
+  font-size: 18px;
+}
+
+p {
+  font-size: 1.6em;
 }
 
 #alphabet li {
@@ -16,10 +21,15 @@ body {
   border: solid 1px #fff;
 }
 
+#alphabet:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #alphabet {
     margin: 15px auto;
-    padding: 0;
-    max-width: 900px;
+    padding: 0 0 0 15px;
 }
 
 .hiddenword {
