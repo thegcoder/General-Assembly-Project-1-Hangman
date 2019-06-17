@@ -6,21 +6,11 @@
   </head>
   <body>
     <div class="wrapper">
-        <h1>Hangman</h1>
-         <p>Click here for a clue ! </p>
-     </div>
-     <div class="wrapper">
-         <div id="buttons">
-         </div>
-         <p id="categoryName"></p>
-         <div id="hold">
-         </div>
-         <p id="mylives"></p>
-         <p id="clue">Clue -</p>
-         <div class="container">
-           <button id="hint">Hint</button>
-           <button id="reset">Play again</button>
-         </div>
+      <h1>Hangman</h1>
+      <p>Click here for a clue ! </p>
+    </div>
+    <div class="wrapper">
+       <div id="buttons">
          <ul id="alphabet">
            <li class="letter">a</li>
            <li class="letter">b</li>
@@ -49,6 +39,23 @@
            <li class="letter">y</li>
            <li class="letter">z</li>
          </ul>
+       </div>
+       <p id="categoryName"></p>
+       <div>
+         <ul class="hiddenword">
+           <li class="guess">_</li>
+           <li class="guess">_</li>
+           <li class="guess">_</li>
+           <li class="guess">_</li>
+           <li class="guess">_</li>
+         </ul>
+       </div>
+       <p id="mylives"></p>
+       <p id="clue">Clue </p>
+       <div class="container">
+         <button id="hint">Hint</button>
+         <button id="reset">Play again</button>
+       </div>
      </div>
   </body>
 </html>
