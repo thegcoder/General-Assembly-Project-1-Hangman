@@ -1,5 +1,6 @@
 body {
   background: lightpink;
+  text-align: center;
 }
 
 #alphabet li {
@@ -13,7 +14,6 @@ body {
   color: darkblue;
   cursor: pointer;
   border: solid 1px #fff;
-  text-align: center;
 }
 #alphabet {
     margin: 15px auto;
