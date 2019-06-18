@@ -26,10 +26,12 @@ p {
     display: table;
     clear: both;
 }
-
 #alphabet {
     margin: 15px auto;
     padding: 0 0 0 15px;
+}
+.category {
+  float: left;
 }
 
 .hiddenword {
@@ -41,7 +43,24 @@ p {
 .hiddenword li {
     position: relative;
     list-style: none;
-    margin: 0;
+    margin: 5px;
     display: inline-block;
     padding: 0 10px;
+    height: 20px;
+}
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.guess {
+  border-bottom: 1px solid black;
+}
+.categoryName {
+  float: left;
+}
+.hidden {
+  display: none;
+}
+#alphabet li.deactivate {
+  background-color: grey;
 }

@@ -5,9 +5,9 @@
     <link rel="stylesheet" href="hangman.css">
   </head>
   <body>
+    <div class="category"><span id="categoryName">Category: Georgia Cities</span></div>
     <div class="wrapper">
       <h1>Hangman</h1>
-      <p>Click here for a clue ! </p>
     </div>
     <div class="wrapper">
        <div id="buttons">
@@ -40,21 +40,23 @@
            <li class="letter">z</li>
          </ul>
        </div>
-       <p id="categoryName"></p>
        <div class="hold">
          <ul class="hiddenword">
-           <li class="guess">_</li>
-           <li class="guess">_</li>
-           <li class="guess">_</li>
-           <li class="guess">_</li>
-           <li class="guess">_</li>
+           <li class="guess"></li>
+           <li class="guess"></li>
+           <li class="guess"></li>
+           <li class="guess"></li>
+           <li class="guess"></li>
+           <li class="guess"></li>
+           <li class="guess"></li>
          </ul>
        </div>
-       <p id="mylives"></p>
-       <p id="clue">Clue </p>
+       <p><span id="mylives">0</span> of <span id="totalLives"></span></p>
        <div class="container">
          <button id="hint">Hint</button>
          <button id="reset">Play again</button>
+         <p id="clue"></p>
+         <script src="hangman.js"></script>
        </div>
      </div>
   </body>
